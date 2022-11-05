@@ -35,3 +35,17 @@ def million_to_billion(data, confirmation):
             billion_values.append(data[i])
     
     return billion_values
+
+
+
+def correcting_AI(data):
+    correct = []
+
+    for word in data:
+        if word == 'Artificial intelligence' or word == 'Artificial Intelligence':
+            correcting = word.lower().capitalize()
+            correct.append(correcting)
+        else:
+            correct.append(word)
+    
+    return correct
