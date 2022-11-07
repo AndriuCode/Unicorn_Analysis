@@ -1,0 +1,12 @@
+name: unicorns_project
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - seaborn
+  - numpy
+  - matplotlib
+  - notebook
+  - openpyxl
+prefix: /Users/AndresVivanco/anaconda3/envs/unicorns_project
